@@ -18,7 +18,7 @@ export const useResponsiveClass = <T extends string>(desktopClass: T, mobileClas
 };
 ```
 * Generic Type T: By using the generic type T, we ensure that both desktopClass and mobileClass have the same type. This prevents type errors and allows TypeScript to infer the correct type for the returned value.
-* Type Safety: This approach ensures type safety and helps catch potential type errors during development.
+* Type Safety: This approach ensures type safety and helps catch potential type errors during development..
 
 ## How To Use
 ```bash
